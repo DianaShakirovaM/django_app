@@ -46,7 +46,7 @@ python manage.py runserver
 ## Использование
 В любом шаблоне:
 ```bash
-django{% load draw_menu %}
+d{% load draw_menu %}
 
 {% draw_menu 'main_menu' %}
 {% draw_menu 'sidebar_menu' %}
