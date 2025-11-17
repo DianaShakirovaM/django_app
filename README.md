@@ -14,35 +14,37 @@
 7. **Ровно 1 запрос к БД** на отрисовку любого меню  
 
 ## Установка
-# 1. Склонировать репозиторий
+1. Склонировать репозиторий
+```bash
 git clone https://github.com/DianaShakirovaM/django_app
-# 2. Создать виртуальное окружение
+```
+2. Создать виртуальное окружение
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # или
 venv\Scripts\activate     # Windows
 ```
-# 3. Установить зависимости
+3. Установить зависимости
 ```bash
 pip install -r requirements.txt
 ```
-# 3. Выполнить миграции
+4. Выполнить миграции
 ```bash
 python manage.py makemigrations tree_menu
 python manage.py migrate
 ```
-# 4. Создать суперпользователя
+5. Создать суперпользователя
 ```bash
 python manage.py createsuperuser
 ```
-# 5. Запустить сервер
+6. Запустить сервер
 ```bash
 python manage.py runserver
 ```
 
 ## Использование
-# В любом шаблоне:
+В любом шаблоне:
 ```bash
 django{% load draw_menu %}
 
