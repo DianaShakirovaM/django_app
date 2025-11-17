@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 4. Выполнить миграции
 ```bash
-python manage.py makemigrations tree_menu
+python manage.py makemigrations
 python manage.py migrate
 ```
 5. Создать суперпользователя
@@ -46,7 +46,7 @@ python manage.py runserver
 ## Использование
 В любом шаблоне:
 ```bash
-d{% load draw_menu %}
+{% load draw_menu %}
 
 {% draw_menu 'main_menu' %}
 {% draw_menu 'sidebar_menu' %}
