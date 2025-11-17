@@ -1,6 +1,6 @@
 # Django Tree Menu — древовидное меню
 
-[![Django](https://img.shields.io/badge/Django-≥4.2-brightgreen.svg)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/Django-≥3.2-brightgreen.svg)](https://www.djangoproject.com/)
 [![Python](https://img.shields.io/badge/Python-≥3.8-blue.svg)](https://www.python.org/)
 
 ## Основные возможности
