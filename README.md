@@ -52,4 +52,3 @@ django{% load draw_menu %}
 {% draw_menu 'sidebar_menu' %}
 {% draw_menu 'footer_menu' %}
 ```
-Готово!
